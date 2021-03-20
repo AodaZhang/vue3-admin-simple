@@ -17,7 +17,8 @@ if (process.env.NODE_ENV === 'development') {
     // 2.使用接口代理mock
     devServerConfig.proxy = {
       [process.env.VUE_APP_BASE_URL_USER]: {
-        target: 'https://test132.maxuscloud.cn/api',
+        target:
+          'https://www.fastmock.site/mock/b6db459c335739e87e3a2aa489553b5a',
         changeOrigin: true
       }
     }
