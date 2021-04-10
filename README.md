@@ -30,15 +30,14 @@
   - [x] dom 级权限
 - 路由
   - [x] 动态挂载路由
-  - [x] 路由重置
+  - [x] 动态路由重置
 - 全局
   - [x] 国际化多语言
   - [x] 动态侧边栏（支持路由无限嵌套）
   - [x] 动态面包屑（根据路由自动生成）
+  - [x] JSX 支持
+  - [x] 标准化 layout 布局
   - [x] mock（使用 webpack-dev-server 内置 express）
-  - [x] JSX
-  - [ ] 多标签页切换
-  - [ ] 移动端适配
 - 工程化
   - [x] dev/uat/prod 多环境配置
   - [x] 支持 ant-design-vue 按需加载，内置 moment.js 替换为 day.js
@@ -59,12 +58,13 @@
 │   ├── assets                 # 静态资源
 │   ├── components             # 全局组件
 │   ├── hooks                  # 自定义hooks
-│   ├── layout                 # 基础页面布局
+│   ├── layout                 # 全局页面布局
 │   ├── locale                 # 国际化语言配置
+│   ├── model                  # 数据模型
 │   ├── plugins                # vue初始加载插件、指令、组件
 │   ├── router                 # vue-router
 │   ├── store                  # vuex
-│   ├── style                  # less mixin以及全局样式
+│   ├── style                  # 全局样式
 │   ├── types                  # 全局.d.ts定义
 │   ├── utils                  # 工具函数
 │   ├── views                  # 业务页面
